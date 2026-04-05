@@ -2,8 +2,8 @@ import os
 from PIL import Image
 from tqdm import tqdm
 
-repo_dir = "ITEC-612-Facial-Recognition"
-os.chdir(repo_dir)
+# repo_dir = "ITEC-612-Facial-Recognition"
+# os.chdir(repo_dir)
 
 dataset_dir = "dataset"
 processed_dir = "processed_data"
