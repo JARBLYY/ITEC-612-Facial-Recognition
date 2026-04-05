@@ -16,5 +16,5 @@ Features:
 - Supports integration with other AI Models.
 
 License & Credits:
-This project is for educational purposes and is not intended for commercial use. Group project for ITEC 612: Applications to Artificial Intelligence Course.
+This project is for educational purposes. Group project for ITEC 612: Applications to Artificial Intelligence Course.
 Developed by: Jarely Orozco, Alejandra Garcia, Ahmad Barakat, and Joe Castillo. 
