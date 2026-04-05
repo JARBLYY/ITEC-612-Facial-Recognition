@@ -31,7 +31,7 @@ def preprocess_and_save(input_dir, output_dir):
             person_output_dir = os.path.join(split_output_dir, person)
             os.makedirs(person_output_dir, exist_ok=True)
 
-            #Progress bar
+            # Progress bar
             for img_file in tqdm(os.listdir(person_input_dir), desc=f"Processing {split}/{person}"):
                 img_path = os.path.join(person_input_dir, img_file)
                 try:
@@ -39,7 +39,7 @@ def preprocess_and_save(input_dir, output_dir):
                     img = img.resize(target_size)
                     save_path = os.path.join(person_output_dir, img_file)
                     img.save(save_path)
-                #Failed processing
+                # Failed processing
                 except Exception as e:
                     print(f"Failed to process {img_path}: {e}")
 
