@@ -7,7 +7,6 @@ A facial recognition system that utilizes AI and Python libraries for dataset cr
 Installation Instructions:
 - Install dependencies
 - Git clone the repository.
-- Select a folder in host machine to clone repo.
 
 Features:
 - Organized dataset (One folder per individual)
