@@ -6,11 +6,13 @@ A facial recognition system that utilizes AI and Python libraries for dataset cr
 
 Installation Instructions:
 - Git clone the repository.
+- Navigate into the project folder.
+- Optional but recommended: Create and activate a virtual environment. 
 - Install dependencies. Install 'tqdm' depending on OS. 
 
 Features:
 - Organized dataset (One folder per individual)
-- Image preprocessing pipeline: Resizing 224x224, Color standardiziation (RGB), Pixel normalization (0-!).
+- Image preprocessing pipeline: Resizing 224x224, Color standardiziation (RGB), Pixel normalization (0-1).
 - Modular and reusable Python Code.
 - Supports integration with other AI Models.
 
