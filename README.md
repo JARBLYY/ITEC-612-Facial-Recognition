@@ -4,9 +4,9 @@ Introduction:
 A facial recognition system that utilizes AI and Python libraries for dataset creation, image preprocessing, and performance evaluation. The project involves creating a structured dataset and implementing a preprocessing pipeline to prepare the uploaded imges for model training and analysis.
 
 Installation Instructions:
-1.) Install dependencies
-2.) Git clone the repository.
-3.) Select a folder in host machine to clone repo.
+- Install dependencies
+- Git clone the repository.
+- Select a folder in host machine to clone repo.
 
 Features:
 - Organized dataset (One folder per individual)
