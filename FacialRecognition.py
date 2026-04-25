@@ -3,6 +3,7 @@
 
 # Imports
 import os
+import numpy as np
 from PIL import Image
 from tqdm import tqdm
 
@@ -37,8 +38,9 @@ def preprocess_and_save(input_dir, output_dir):
                 try:
                     img = Image.open(img_path).convert(mode)
                     img = img.resize(target_size)
-                    save_path = os.path.join(person_output_dir, img_file)
-                    img.save(save_path)
+                    img_array = np.array(img) / 255.0
+                    save_path = os.path.join(person_output_dir, os.path.splitext(img_file)[0] + ".npy")
+                    np.save(save_path, img_array)
                 # Failed processing
                 except Exception as e:
                     print(f"Failed to process {img_path}: {e}")
