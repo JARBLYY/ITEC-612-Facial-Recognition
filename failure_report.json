@@ -1,0 +1,26 @@
+{
+  "total_images": 106,
+  "successfully_processed": 105,
+  "no_face_detected": 1,
+  "alignment_failed": 0,
+  "embedding_failed": 1,
+  "load_failed": 0,
+  "details": {
+    "no_face_detected": [
+      {
+        "path": "/sessions/nice-inspiring-bell/repo/dataset/Facial_Recognition_Train/Tom Hanks/Tom_Hanks_0001.jpg",
+        "label": "Tom_Hanks",
+        "split": "train"
+      }
+    ],
+    "alignment_failed": [],
+    "embedding_failed": [
+      {
+        "path": "/sessions/nice-inspiring-bell/repo/dataset/Facial_Recognition_Val/Will Smith/Will_Smith_0003.jpg",
+        "label": "Will_Smith",
+        "split": "val"
+      }
+    ],
+    "load_failed": []
+  }
+}
